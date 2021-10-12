@@ -3,20 +3,16 @@
 }
 
 body {
-  font-family: Arial;
-  line-height: 1.4;
   background: linear-gradient(
       rgba(256, 256, 256, 0.8),
       rgba(256, 256, 256, 0.8)
     ),
     url(https://assets.codepen.io/t-1/nathan-dumlao-6VhPY27jdps-unsplash.jpg);
   background-size: cover;
-  background-position: center;
-  max-width: calc(100% - 40px);
-  margin: auto;
+    background-attachment: fixed;
 }
 
-@media screen and (min-width: 768px) {
+/*@media screen and (min-width: 768px) {
   body {
     display: grid;
     grid-template-columns: 2fr;
@@ -28,7 +24,7 @@ body {
       'coffee espresso'
       'tea bakery';
   }
-}
+}*/
 
 h1 {
   text-transform: uppercase;
