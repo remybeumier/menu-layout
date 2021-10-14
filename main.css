@@ -31,7 +31,8 @@ body {
       'title title'
       'coffee espresso'
       'tea bakery'
-      'address hours';
+      'hours hours'
+      'address address';
     grid-gap: 20px;
   }
 }
@@ -42,12 +43,8 @@ body {
   }
 }
 
-.address {
-  grid-area: address;
-}
-
-.hours {
-  grid-area: hours;
+section {
+  /* background: rgba(256, 256, 256, 0.8); */
 }
 
 .coffee {
@@ -64,6 +61,29 @@ body {
 
 .bakery {
   grid-area: bakery;
+}
+
+.hours {
+  grid-area: hours;
+  padding: 20px 0;
+  border-bottom: solid 1px #666;
+}
+.hours table {
+  margin: auto;
+}
+.hours table td {
+  padding: 4px 8px;
+}
+.hours table td:last-of-type {
+  font-weight: bold;
+}
+
+.address {
+  grid-area: address;
+  text-align: center;
+}
+address {
+  font-style: normal;
 }
 
 h1 {
